@@ -1,0 +1,159 @@
+*{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+img {
+    position:absolute;
+    width:100%;
+    height:100%;
+    left: 0px;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    z-index: -1;
+    opacity:50%;
+}
+
+#clock{
+    display: inline;
+    background-color: midnightblue;
+    color: whitesmoke;
+    font-size: 64px;
+    position: relative;
+    top: 300px;
+}
+
+.greeting form{
+    position: absolute;
+    top: 0px;
+    right: 50px;
+}
+.greeting form input{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+.greeting form button{
+    width: 80px;
+    height: 30px;
+    background-color: midnightblue;
+    color: whitesmoke;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.greeting h1{
+    display: inline;
+    background-color: midnightblue;
+    color: whitesmoke;
+    position: relative;
+    top: 340px;
+}
+.greeting .logout{
+    display: block;
+    width: 80px;
+    height: 30px;
+    background-color: midnightblue;
+    color: whitesmoke;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 0px;
+    right: 50px;
+    cursor: pointer;
+}
+.greeting .hidden{
+    display: none;
+}
+
+.specialClock{
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity:50%;
+}
+.specialClock h1{
+    background-color: white;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.specialClock h2{
+    background-color: white;
+    font-size: 28px;
+    color: crimson;
+    margin-bottom: 10px;
+}
+.specialClock input{
+    background-color: white;
+    font-size: 20px;
+    color: brown;
+    padding: 2px;
+    margin-bottom: 10px;
+}
+
+.todos{
+    position: relative;
+    top: 370px;
+}
+.todos .hidden{
+    display: none;
+}
+.todos form input{
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+}
+.todos ul{
+    display: inline-block;
+}
+.todos ul li{
+    background-color: midnightblue;
+    color: white;
+    margin-bottom: 3px;
+}
+.todos ul li span{
+    padding-left: 5px;
+    padding-right: 10px;
+}
+.todos ul li button{
+    background-color: rgba( 255, 255, 255, 0 );
+    border: 0;
+}
+
+#quote {
+    position: absolute;
+    width: 2000px;
+    bottom: 0px;
+}
+#quote span{
+    display: block;
+    background-color: midnightblue;
+    color: white;
+    font-size: 20px;
+}
+#quote span:last-child{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+#weather{
+    color: midnightblue;
+    font-weight: 900;
+    position: absolute;
+    top: 40px;
+    right: 0px;
+}
+#weather span{
+    display: block;
+    width: 300px;
+    text-align: right;
+    margin-right: 20px;
+}
